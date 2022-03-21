@@ -451,6 +451,8 @@ func getUnameSUnameMPaths(goos string, goarch string) (string, string, error) {
 	switch goarch {
 	case "amd64":
 		unameM = "x86_64"
+	case "arm64":
+		unameM = "x86_64"
 	default:
 		return "", "", fmt.Errorf("unsupported value for runtime.GOARCH: %v", goarch)
 	}
