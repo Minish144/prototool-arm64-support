@@ -6,7 +6,7 @@ go_library(
         "file.go",
         "proto_set_provider.go",
     ],
-    importpath = "github.com/uber/prototool/internal/file",
+    importpath = "github.com/minish144/prototool-arm64-support/internal/file",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/settings:go_default_library",

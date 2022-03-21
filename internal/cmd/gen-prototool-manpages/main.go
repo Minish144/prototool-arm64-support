@@ -23,7 +23,7 @@ package main
 import (
 	"os"
 
-	"github.com/uber/prototool/internal/cmd"
+	"github.com/minish144/prototool-arm64-support/internal/cmd"
 )
 
 func main() {

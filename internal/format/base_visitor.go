@@ -27,8 +27,8 @@ import (
 	"text/scanner"
 
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/buf"
-	"github.com/uber/prototool/internal/text"
+	"github.com/minish144/prototool-arm64-support/internal/buf"
+	"github.com/minish144/prototool-arm64-support/internal/text"
 )
 
 type baseVisitor struct {
@@ -186,7 +186,7 @@ func (v *baseVisitor) PField(prefix string, fieldType string, field *proto.Field
 }
 
 func isSingleValueLiteral(literal proto.Literal) bool {
-	// TODO: this is a good example of the reasoning for https://github.com/uber/prototool/issues/1
+	// TODO: this is a good example of the reasoning for https://github.com/minish144/prototool-arm64-support/issues/1
 	return len(literal.Array) == 0 && len(literal.OrderedMap) == 0
 }
 

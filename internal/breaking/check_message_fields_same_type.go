@@ -23,10 +23,10 @@ package breaking
 import (
 	"fmt"
 
-	"github.com/uber/prototool/internal/extract"
-	"github.com/uber/prototool/internal/text"
+	"github.com/minish144/prototool-arm64-support/internal/extract"
+	"github.com/minish144/prototool-arm64-support/internal/text"
 
-	reflectv1 "github.com/uber/prototool/internal/reflect/gen/uber/proto/reflect/v1"
+	reflectv1 "github.com/minish144/prototool-arm64-support/internal/reflect/gen/uber/proto/reflect/v1"
 )
 
 func checkMessageFieldsSameType(addFailure func(*text.Failure), from *extract.PackageSet, to *extract.PackageSet) error {

@@ -6,7 +6,7 @@ go_library(
         "exec.go",
         "runner.go",
     ],
-    importpath = "github.com/uber/prototool/internal/exec",
+    importpath = "github.com/minish144/prototool-arm64-support/internal/exec",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/breaking:go_default_library",

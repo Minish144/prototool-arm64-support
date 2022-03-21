@@ -21,9 +21,9 @@
 package breaking
 
 import (
-	"github.com/uber/prototool/internal/extract"
-	"github.com/uber/prototool/internal/settings"
-	"github.com/uber/prototool/internal/text"
+	"github.com/minish144/prototool-arm64-support/internal/extract"
+	"github.com/minish144/prototool-arm64-support/internal/settings"
+	"github.com/minish144/prototool-arm64-support/internal/text"
 	"go.uber.org/zap"
 )
 

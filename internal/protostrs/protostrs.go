@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/uber/prototool/internal/strs"
+	"github.com/minish144/prototool-arm64-support/internal/strs"
 )
 
 // CSharpNamespace returns the value for the file option "csharp_namespace"

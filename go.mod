@@ -1,4 +1,4 @@
-module github.com/uber/prototool
+module github.com/minish144/prototool-arm64-support
 
 go 1.14
 

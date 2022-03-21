@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/minish144/prototool-arm64-support/internal/exec"
 	wordwrap "github.com/mitchellh/go-wordwrap"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
-	"github.com/uber/prototool/internal/exec"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

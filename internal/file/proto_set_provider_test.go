@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/minish144/prototool-arm64-support/internal/settings"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/uber/prototool/internal/settings"
 	"go.uber.org/zap"
 )
 

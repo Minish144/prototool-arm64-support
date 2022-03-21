@@ -23,8 +23,8 @@ package breaking
 import (
 	"fmt"
 
-	"github.com/uber/prototool/internal/extract"
-	"github.com/uber/prototool/internal/text"
+	"github.com/minish144/prototool-arm64-support/internal/extract"
+	"github.com/minish144/prototool-arm64-support/internal/text"
 )
 
 func forEachPackagePair(

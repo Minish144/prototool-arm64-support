@@ -22,8 +22,8 @@ package lint
 
 import (
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/strs"
-	"github.com/uber/prototool/internal/text"
+	"github.com/minish144/prototool-arm64-support/internal/strs"
+	"github.com/minish144/prototool-arm64-support/internal/text"
 )
 
 var enumZeroValuesInvalidExceptMessageLinter = NewLinter(
